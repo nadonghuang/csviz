@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { CSVParser } = require('../lib/parser');
+const CSVParser = require('../lib/parser');
 const { renderTable } = require('../lib/table');
 const { renderBar } = require('../lib/bar');
 const { renderLine } = require('../lib/line');
